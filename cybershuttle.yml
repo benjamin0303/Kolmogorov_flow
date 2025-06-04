@@ -1,7 +1,7 @@
 project:
-  name: "DEM_Elastic_2D_PINN"
-  description: "DEM_Elastic_2D_PINN"
-  homepage: "https://github.com/benjamin0303/DEM_Elastic_2D_PINN"
+  name: "Kolmogorov_flow"
+  description: "Kolmogorov_flow"
+  homepage: "https://github.com/benjamin0303/Kolmogorov_flow"
   authors:
     - jaewanp2@illinois.edu
   tags:

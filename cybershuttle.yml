@@ -1,0 +1,36 @@
+project:
+  name: "DEM_Elastic_2D_PINN"
+  description: "DEM_Elastic_2D_PINN"
+  homepage: "https://github.com/benjamin0303/DEM_Elastic_2D_PINN"
+  authors:
+    - jaewanp2@illinois.edu
+  tags:
+    - NCSA
+    - DiT
+    - Kolmogorov_flow
+ 
+workspace:
+  resources:
+    min_cpu: 16
+    min_mem: 4000
+    min_gpu: 1
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+ 
+additional_dependencies:
+  modules: 
+    - anaconda3_gpu/22.10.0
+    #- python/miniforge3_pytorch
+  conda:
+    - python=3.10
+    - pip
+    - make
+    - cmake
+    - compilers
+    - openmpi
+    - wget
+    - numpy
+    - matplotlib
+    - pandas
+  pip: []  
